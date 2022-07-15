@@ -3,5 +3,6 @@ resource "aws_instance" "thinknyxdemo" {
   instance_type = "t2.micro"
   tags = {
     Name = "test"
+    env = "dev"
   }
 }
